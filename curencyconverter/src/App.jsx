@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import {InputBox} from './components'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   
+const [amount,setAmounbt]= useState(0)
 
   return (
     <>
